@@ -19,25 +19,14 @@
 }
 
 .App-header {
-  background-color: #cfcfcf;
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin-bottom: 3rem;
-}
-
-.App-header ul {
-  width: 100%;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: black;
-}
-
-.rest {
-  background: #efefef;
-  border: 2px solid grey;
 }
 
 .App-link {

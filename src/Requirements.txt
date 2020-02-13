@@ -1,0 +1,32 @@
+Cart Application -
+
+1. Fetch list of items from some api, then set it in the items list
+2. On click of any item, it gets added to the cart
+3. The total value of the items in the cart is calculated and shown at the bottom
+4. On click of the "Checkout Button", we will clear the cart, and the total price
+
+App Structure -
+1. Parent App component - Items, Cart items, Total Value
+2. Items component
+3. Cart Component
+4. List Component
+5. List item component
+6. Checkout Component
+
+What all data will our Application hold?
+1. List of items = Array = [] of objects = Object -> One item details
+2. List of items inside your cart = Array = [] of objects = Object -> One item details
+3. Total Price inside your cart
+
+App
+  Constructor
+  Render
+    Items
+      Constructor
+      Render
+        List
+          Constructor
+          Render
+          CDM
+      CDM
+  CDM
